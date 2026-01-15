@@ -1,0 +1,45 @@
+{
+  "backtest_id": "bt_b7383fa5014d",
+  "started_at": "2026-01-15T14:03:38.669662+00:00",
+  "completed_at": "2026-01-15T14:03:39.758059+00:00",
+  "total_positions_scanned": 50,
+  "total_opportunities_detected": 10,
+  "total_opportunities_simulated": 20,
+  "overall_mean_ev_eth": "0.000000",
+  "overall_ev_ci_lower_95": "0.000000",
+  "overall_ev_ci_upper_95": "0.000000",
+  "overall_mean_capture_prob": "0.000000",
+  "overall_capture_ci_lower_95": "0.000000",
+  "overall_capture_ci_upper_95": "0.000000",
+  "hypothesis_results": {
+    "h1_profitable_opportunities": {
+      "result": false,
+      "mean_ev_eth": "0",
+      "ci_lower": "0.0",
+      "ci_upper": "0.0"
+    },
+    "h2_capture_probability": {
+      "result": false,
+      "mean_probability": "0.0",
+      "threshold": "0.03"
+    },
+    "adjusted_alpha": 0.9875,
+    "bonferroni_applied": true
+  },
+  "meets_sample_size": false,
+  "meets_capture_threshold": false,
+  "meets_ev_threshold": false,
+  "num_windows": 1,
+  "windows": [
+    {
+      "window_id": "win_1000000_1000049",
+      "start_block": 1000000,
+      "end_block": 1000049,
+      "num_positions_scanned": 50,
+      "num_opportunities_detected": 10,
+      "mean_ev_eth": "0.000000",
+      "mean_capture_probability": "0.000000",
+      "duration_ms": 1068
+    }
+  ]
+}

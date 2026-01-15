@@ -1,0 +1,14 @@
+2026-01-15 15:03:38.670 | INFO     | EVENT: backtest_started
+2026-01-15 15:03:38.671 | INFO     | Generated 1 windows
+2026-01-15 15:03:38.671 | INFO     | EVENT: opportunity_detected
+2026-01-15 15:03:38.672 | INFO     | EVENT: opportunity_detected
+2026-01-15 15:03:38.672 | INFO     | EVENT: opportunity_detected
+2026-01-15 15:03:38.673 | INFO     | EVENT: opportunity_detected
+2026-01-15 15:03:38.673 | INFO     | EVENT: opportunity_detected
+2026-01-15 15:03:38.673 | INFO     | EVENT: opportunity_detected
+2026-01-15 15:03:38.674 | INFO     | EVENT: opportunity_detected
+2026-01-15 15:03:38.674 | INFO     | EVENT: opportunity_detected
+2026-01-15 15:03:38.674 | INFO     | EVENT: opportunity_detected
+2026-01-15 15:03:38.675 | INFO     | EVENT: opportunity_detected
+2026-01-15 15:03:38.675 | INFO     | Window win_1000000_1000049: 10 opportunities from 50 positions
+2026-01-15 15:03:39.758 | INFO     | EVENT: backtest_completed
