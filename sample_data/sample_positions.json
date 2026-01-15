@@ -1,0 +1,193 @@
+{
+  "description": "Sample liquidation position data for testing the MEV analysis framework",
+  "source": "synthetic",
+  "generated_at": "2025-01-15T00:00:00Z",
+  "positions": [
+    {
+      "user_address": "0x1234567890abcdef1234567890abcdef12345678",
+      "block_number": 1000000,
+      "collaterals": [
+        {
+          "symbol": "WETH",
+          "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+          "decimals": 18,
+          "amount_raw": 5000000000000000000,
+          "price_usd": "2000",
+          "asset_type": "eth_correlated",
+          "liquidation_threshold": "0.825",
+          "liquidation_bonus": "0.05",
+          "ltv": "0.80"
+        }
+      ],
+      "debts": [
+        {
+          "symbol": "USDC",
+          "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+          "decimals": 6,
+          "amount_raw": 9000000000,
+          "price_usd": "1.0",
+          "asset_type": "stable",
+          "is_stable_rate": false,
+          "current_rate": "0.05"
+        }
+      ],
+      "health_factor": "0.92",
+      "health_factor_source": "synthetic"
+    },
+    {
+      "user_address": "0xabcdef1234567890abcdef1234567890abcdef12",
+      "block_number": 1000010,
+      "collaterals": [
+        {
+          "symbol": "WBTC",
+          "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+          "decimals": 8,
+          "amount_raw": 50000000,
+          "price_usd": "45000",
+          "asset_type": "other",
+          "liquidation_threshold": "0.75",
+          "liquidation_bonus": "0.10",
+          "ltv": "0.70"
+        }
+      ],
+      "debts": [
+        {
+          "symbol": "USDT",
+          "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+          "decimals": 6,
+          "amount_raw": 20000000000,
+          "price_usd": "1.0",
+          "asset_type": "stable",
+          "is_stable_rate": false,
+          "current_rate": "0.04"
+        }
+      ],
+      "health_factor": "0.85",
+      "health_factor_source": "synthetic"
+    },
+    {
+      "user_address": "0x9876543210fedcba9876543210fedcba98765432",
+      "block_number": 1000020,
+      "collaterals": [
+        {
+          "symbol": "WETH",
+          "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+          "decimals": 18,
+          "amount_raw": 2000000000000000000,
+          "price_usd": "2000",
+          "asset_type": "eth_correlated",
+          "liquidation_threshold": "0.825",
+          "liquidation_bonus": "0.05",
+          "ltv": "0.80"
+        }
+      ],
+      "debts": [
+        {
+          "symbol": "DAI",
+          "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "decimals": 18,
+          "amount_raw": 3700000000000000000000,
+          "price_usd": "1.0",
+          "asset_type": "stable",
+          "is_stable_rate": false,
+          "current_rate": "0.035"
+        }
+      ],
+      "health_factor": "0.89",
+      "health_factor_source": "synthetic"
+    },
+    {
+      "user_address": "0xfedcba9876543210fedcba9876543210fedcba98",
+      "block_number": 1000030,
+      "collaterals": [
+        {
+          "symbol": "ARB",
+          "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+          "decimals": 18,
+          "amount_raw": 50000000000000000000000,
+          "price_usd": "1.5",
+          "asset_type": "other",
+          "liquidation_threshold": "0.65",
+          "liquidation_bonus": "0.10",
+          "ltv": "0.58"
+        }
+      ],
+      "debts": [
+        {
+          "symbol": "USDC",
+          "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+          "decimals": 6,
+          "amount_raw": 55000000000,
+          "price_usd": "1.0",
+          "asset_type": "stable",
+          "is_stable_rate": false,
+          "current_rate": "0.05"
+        }
+      ],
+      "health_factor": "0.88",
+      "health_factor_source": "synthetic"
+    },
+    {
+      "user_address": "0x1111111111111111111111111111111111111111",
+      "block_number": 1000040,
+      "collaterals": [
+        {
+          "symbol": "WETH",
+          "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+          "decimals": 18,
+          "amount_raw": 10000000000000000000,
+          "price_usd": "2000",
+          "asset_type": "eth_correlated",
+          "liquidation_threshold": "0.825",
+          "liquidation_bonus": "0.05",
+          "ltv": "0.80"
+        }
+      ],
+      "debts": [
+        {
+          "symbol": "USDC",
+          "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+          "decimals": 6,
+          "amount_raw": 5000000000,
+          "price_usd": "1.0",
+          "asset_type": "stable",
+          "is_stable_rate": false,
+          "current_rate": "0.05"
+        }
+      ],
+      "health_factor": "3.30",
+      "health_factor_source": "synthetic"
+    },
+    {
+      "user_address": "0x2222222222222222222222222222222222222222",
+      "block_number": 1000050,
+      "collaterals": [
+        {
+          "symbol": "WETH",
+          "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+          "decimals": 18,
+          "amount_raw": 3000000000000000000,
+          "price_usd": "2000",
+          "asset_type": "eth_correlated",
+          "liquidation_threshold": "0.825",
+          "liquidation_bonus": "0.05",
+          "ltv": "0.80"
+        }
+      ],
+      "debts": [
+        {
+          "symbol": "USDC",
+          "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+          "decimals": 6,
+          "amount_raw": 2000000000,
+          "price_usd": "1.0",
+          "asset_type": "stable",
+          "is_stable_rate": false,
+          "current_rate": "0.05"
+        }
+      ],
+      "health_factor": "2.47",
+      "health_factor_source": "synthetic"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Known addresses to monitor for liquidation opportunities (research only)",
+  "source": "manual",
+  "updated_at": "2025-01-15T00:00:00Z",
+  "note": "These are sample addresses for testing. In production, addresses would be discovered via event scanning.",
+  "addresses": [
+    {
+      "address": "0x1234567890abcdef1234567890abcdef12345678",
+      "label": "Sample Position 1",
+      "first_seen_block": 1000000,
+      "notes": "WETH collateral, USDC debt"
+    },
+    {
+      "address": "0xabcdef1234567890abcdef1234567890abcdef12",
+      "label": "Sample Position 2",
+      "first_seen_block": 1000010,
+      "notes": "WBTC collateral, USDT debt"
+    },
+    {
+      "address": "0x9876543210fedcba9876543210fedcba98765432",
+      "label": "Sample Position 3",
+      "first_seen_block": 1000020,
+      "notes": "WETH collateral, DAI debt"
+    },
+    {
+      "address": "0xfedcba9876543210fedcba9876543210fedcba98",
+      "label": "Sample Position 4",
+      "first_seen_block": 1000030,
+      "notes": "ARB collateral, USDC debt"
+    }
+  ]
+}
